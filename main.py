@@ -8,10 +8,12 @@ from time import sleep
 
 browser = webdriver.Chrome('/usr/lib/chromium-browser/chromedriver')
 
-browser.set_window_size(600, 600)
+browser.set_window_size(700, 600)
 browser.set_window_position(0, 0)
 
 #browser.get("https://www.brookfieldlagrange.iad1.qualtrics.com")
+
+# having trouble with the website, maybe due to link was originally sent to my wife!
 browser.get("https://brookfieldlagrange.iad1.qualtrics.com/jfe/form/SV_5uoAn5rdUOcUiqx?Q_DL=GQiC2BdRdpm00g6_5uoAn5rdUOcUiqx_CGC_J0q5oiAd598GByx&Q_CHL=email")
 
 #sleep(5)
